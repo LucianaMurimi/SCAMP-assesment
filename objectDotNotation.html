@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Object Dot Notation</title>
+    </head>
+    <body>
+
+    <script>
+        /*
+        Task:
+        Using Javascript's object dot notation, write a function that outputs the string:
+        'My name is ... from ... and I'm a ... developer'*/
+        function outputString(name, region, title){
+            let person = {
+                name: name,
+                region:region,
+                title: title
+            };
+        	console.log(`My name is ${person.name} from ${person.region} and I'm a ${person.title} developer.`)
+        }
+
+        outputString("Luciana Murimi", "Nairobi", "sofware");
+    </script>
+    </body>
+</html>
